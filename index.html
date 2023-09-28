@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>DiceJack</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game-container">
+    <div id="balance">Balance: 1000 Jack</div>
+    <input type="number" id="bet" min="10" max="1000000" value="10">
+    <button onclick="startGame()">Start</button>
+    <div id="game">
+      <button onclick="rollDice()">Würfeln</button>
+      <button onclick="hold()">Halten</button>
+      <div id="player">Spieler: 0</div>
+      <div id="host">Host: 0</div>
+      <div id="result"></div>
+      <button onclick="newGame()">Neues Spiel</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
