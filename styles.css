@@ -1,0 +1,22 @@
+body {
+  background-image: url('dice-background.jpg'); /* Hier dein Würfel Hintergrundbild */
+  background-size: cover;
+  font-family: 'Arial', sans-serif;
+}
+
+#game-container {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  width: 300px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+#game {
+  display: none;
+}
+
+button {
+  display: block;
+  margin-top: 10px;
+}
